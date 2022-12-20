@@ -14,7 +14,7 @@ theme.
 
 CSS Table of content:-
 
-1. Global Area 
+1. Global Area
 2. Header Section
 3. Slider Section
 4. Call To action
@@ -604,7 +604,6 @@ body {
   line-height: 1.55;
   color: #343434;
   font-family: "Roboto";
-  -moz-osx-font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -2347,7 +2346,6 @@ select:visited {
   right: 50%;
   height: 10px;
   opacity: 0;
-  background: -o-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -2447,7 +2445,7 @@ select:visited {
 /*Service Page*/
 /*----------------------------------------------------*/
 .service_page_section {
-  padding: 145px 0px 65px 0px;
+  padding: 65px 0px 65px 0px;
 }
 .service_page_section .service_content_two .service_box {
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.06);
@@ -5942,7 +5940,7 @@ select:visited {
   top: 0px;
   bottom: 0;
   right: -350px;
-  height: 100vh;
+  height: 100%;
   z-index: 101;
   position: fixed;
   width: 280px;
@@ -6533,7 +6531,6 @@ select:visited {
   .service_slider .owl-nav {
     position: static;
     -webkit-transform: inherit;
-        -ms-transform: inherit;
             transform: inherit;
     text-align: center;
   }
@@ -8342,7 +8339,6 @@ body {
   line-height: 1.55;
   color: #343434;
   font-family: "Roboto";
-  -moz-osx-font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
 }
 
