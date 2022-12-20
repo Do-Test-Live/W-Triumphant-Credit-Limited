@@ -3145,7 +3145,7 @@ select:visited {
 /*Team area*/
 /*----------------------------------------------------*/
 .team_section {
-  padding: 118px 0px 110px;
+  padding: 22px 0px 110px;
 }
 .team_section .section_title_area {
   padding-bottom: 65px;
@@ -3206,10 +3206,9 @@ select:visited {
   -webkit-transition: 0.5s all ease-in-out;
   -o-transition: 0.5s all ease-in-out;
   transition: 0.5s all ease-in-out;
-  background-color: rgba(51, 51, 51, 0.8);
 }
 .team_img_text .team_text_details {
-  padding-top: 60px;
+  padding-top: 10px;
 }
 .team_img_text .team_text_details h3 {
   padding-bottom: 8px;
