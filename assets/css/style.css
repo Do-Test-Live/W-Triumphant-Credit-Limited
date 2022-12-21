@@ -1,45 +1,5 @@
 @charset "UTF-8";
-/*----------------------------------------------------
-@File: Default Styles
-@Author:  themexriver
-@URL: https://themexriver.com/
 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: NioBis - Corporate Business HTML Template
-@Author: themexriver
-
-CSS Table of content:-
-
-1. Global Area
-2. Header Section
-3. Slider Section
-4. Call To action
-5. About Section
-6. Service Section
-7. Why choose section
-8. Portfolio Section
-9. Achivement Section
-10. Team Section
-11. Testimonial Section
-12. Client Section
-13. Blog Section
-14. Case  section
-15. Feature Section
-16. How Work section
-17. Newslatter Section
-18. Video Area Section
-19. Pricing Section
-20. Contact Sectionn
-21. Breadcrumb Section
-22. FAQ Section
-23. Footer Section
-24. Mobile Menu area
-25. Responsive Css
-=====================================================================*/
 /*=========
 Font load
 ===========*/
@@ -48,6 +8,34 @@ Font load
 Color Code
 ===========*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700|Roboto:100,300,400,500,700&amp;display=swap");
+
+font-face{
+  font-family: myNewFont;
+  src: url(../fonts/fonts.ttf);
+}
+p{
+  font-weight: bold;
+}
+h3{
+  color: #aa8f57;
+}
+p{
+  color: #aa8f57;
+}
+h2{
+  color: #aa8f57;
+
+  text-shadow: #ffffff 3px 3px 0px, rgb(0 0 0 / 20%) 6px 6px 0px;
+
+}
+.btncolor{
+  background-color: #cc9d3b;
+
+}
+.manucolor{
+  color: #cc9d3b !important;
+}
+
 @-webkit-keyframes fadeInDown {
   from {
     opacity: 0;
@@ -122,7 +110,7 @@ Color Code
 .subscribe_content .testimonial_imgname .testi_text h3, .team_img_text .team_text_details h3, .portfolio_img_text .portfolio_text h3, .why_choose_section .why_choose_left .choose_text h3, .practice_details_section .site_sidebar .single_widget .attorney_widget .attorney_img_text .attorney_text h4, .service_details_content .next_prev_post h4, .service_style_two .service_icon_text .service_text h3, .service_content_two .service_text_two h3, .service_text .service_content h3, .app_download_section .app_download_content .app_btn li, .about_practice_icontext .about_practice_text h4, .about_service_section .about_service_box .abt_service_text h4, .call_action_list .call_action_text h3, .side_inner_content .side_contact .social_widget h3, .widget_title, .slider_style_three .slider_contect_box .slider_text h1, .slider_style_two .slider_contect_box .slider_text h1 {
   font-size: 24px;
   font-weight: 600;
-  font-family: "Poppins";
+  font-family: "myNewFont";
 }
 
 .comment_formfield .quote_form .contact-info .icon-bg, .subscribe_content .subscribe_form .sub-button .icon-bg, .subscribe_content .subscribe_form .contact-info .icon-bg, .choose_form_area .contact-info .icon-bg {
@@ -370,7 +358,7 @@ Color Code
   font-size: 300px;
   font-weight: 600;
   position: absolute;
-  font-family: "Poppins";
+  font-family: "myNewFont";
   -webkit-transform: translateX(-40%);
       -ms-transform: translateX(-40%);
           transform: translateX(-40%);
@@ -603,7 +591,7 @@ body {
   font-size: 16px;
   line-height: 1.55;
   color: #343434;
-  font-family: "Roboto";
+  font-family: "myNewFont";
   -webkit-font-smoothing: antialiased;
 }
 
@@ -731,7 +719,7 @@ select:visited {
 .headline h5,
 .headline h6 {
   margin: 0;
-  font-family: "Poppins";
+  font-family: "myNewFont";
 }
 
 .block-display {
@@ -1245,7 +1233,7 @@ select:visited {
   border-bottom: 1px solid #e5e5e5;
 }
 .main_navigation .dropdown .dropdown-menu li a {
-  color: #343434;
+  color: #cc9d3b;
   font-size: 12px;
   padding: 10px 0px;
 }
@@ -1432,12 +1420,12 @@ select:visited {
 /*slider area*/
 /*----------------------------------------------------*/
 .slider_style_one .background_overlay {
-  background-color: rgba(52, 52, 52, 0.5);
+  background-color: rgba(52, 52, 52, 0);
 }
 .slider_style_one .slider_contect_box {
   z-index: 1;
   margin: 0 auto;
-  padding: 190px 0px;
+  padding: 60px 0px;
   position: relative;
   max-width: 980px;
 }
@@ -1966,7 +1954,7 @@ select:visited {
 .about_counter .about_counter_list .counter_number strong {
   font-size: 26px;
   font-weight: 700;
-  font-family: "Poppins";
+  font-family: "myNewFont";
 }
 .about_counter .about_counter_list .counter_number strong {
   top: 5px;
@@ -2172,7 +2160,7 @@ select:visited {
   display: block;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Roboto";
+  font-family: "myNewFont";
 }
 .app_download_section .app_download_content .app_btn li:nth-child(2) {
   background-color: #343434;
@@ -2784,7 +2772,7 @@ select:visited {
 .practice_details_section .site_sidebar .single_widget .widget_title {
   font-size: 16px;
   color: #343434;
-  font-family: "Roboto";
+  font-family: "myNewFont";
   padding: 0 40px 15px 40px;
   margin: 0 0px 35px;
   border-bottom: 2px solid #eaeaea;
@@ -4394,7 +4382,7 @@ select:visited {
   font-weight: 600;
   position: relative;
   text-align: center;
-  font-family: "Poppins";
+  font-family: "myNewFont";
   border-radius: 10px;
   padding: 50px 85px 60px;
   margin: 40px 0px;
@@ -4407,7 +4395,7 @@ select:visited {
   font-weight: 700;
   margin-bottom: 15px;
   color: #b89b5e;
-  font-family: "Roboto";
+  font-family: "myNewFont";
 }
 .blog_details_text blockquote:after {
   top: 0;
@@ -5266,7 +5254,7 @@ select:visited {
   color: #b89b5e;
 }
 .pricing_plan_content .pricing_price {
-  font-family: "Poppins";
+  font-family: "myNewFont";
   font-weight: 600;
   color: #343434;
   line-height: 1;
@@ -5570,7 +5558,7 @@ select:visited {
 .breadcrumb_section .breadcrumb_title {
   color: #fff;
   line-height: 0.833;
-  font-size: 120px;
+  font-size: 50px;
   text-align: center;
 }
 .breadcrumb_section .breadcrumb {
@@ -8337,7 +8325,7 @@ body {
   font-size: 16px;
   line-height: 1.55;
   color: #343434;
-  font-family: "Roboto";
+  font-family: "myNewFont";
   -webkit-font-smoothing: antialiased;
 }
 
@@ -8389,8 +8377,8 @@ div#preloader {
   background: #282828 url("../img/preloader.gif") no-repeat center center;
 }
 
-[data-background] {
-  background-size: cover;
+.[data-background] {
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -8465,7 +8453,7 @@ select:visited {
 .headline h5,
 .headline h6 {
   margin: 0;
-  font-family: "Poppins";
+  font-family: "myNewFont";
 }
 
 .block-display {
@@ -8725,7 +8713,7 @@ select:visited {
   font-weight: 700;
   font-size: 14px;
   padding: 10px 30px;
-  font-family: "Poppins";
+  font-family: "myNewFont";
   text-transform: uppercase;
 }
 .header_style_four .rx-mobile_menu_content .m-brand-logo {
@@ -9122,7 +9110,7 @@ select:visited {
   font-size: 20px;
   margin-top: 5px;
   font-weight: 700;
-  font-family: "Poppins";
+  font-family: "myNewFont";
 }
 .rx-about-award-img .rx-about-award-text i {
   float: left;
@@ -9504,7 +9492,7 @@ select:visited {
   font-size: 50px;
   font-weight: 700;
   display: inline-block;
-  font-family: "Poppins";
+  font-family: "myNewFont";
 }
 .rx-counter-icon-text .rx-counter-text p {
   font-size: 20px;
@@ -10285,6 +10273,7 @@ select:visited {
     width: 40px;
     line-height: 40px;
   }
+
 }
 /*---------------------------------------------------- */
 /*---------------------------------------------------- */
