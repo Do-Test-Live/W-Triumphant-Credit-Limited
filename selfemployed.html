@@ -19,6 +19,36 @@
     <link rel="stylesheet" href="assets/css/video.min.css">
     <link rel="stylesheet" href="assets/css/nouislider.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        /* For Desktop View */
+        @media screen and (min-width: 1024px) {
+            .header-title{
+                font-size: 45px;
+                line-height: 75px;
+            }
+        }
+
+        /* For Tablet View */
+        @media screen and (min-device-width: 768px)
+        and (max-device-width: 1024px) {
+            .header-title{
+                font-size: 38px;
+                line-height: 70px;
+            }
+        }
+
+        /* For Mobile Portrait View */
+        @media screen and (max-device-width: 480px)
+        and (orientation: portrait) {
+            .header-title{
+                font-size: 30px;
+                line-height: 60px;
+                text-align: center;
+            }
+        }
+
+    </style>
 </head>
 
 <body>
@@ -39,17 +69,6 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="header_follow_social float-right ul-li">
-                    <ul>
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                    </ul>
-                </div>
-            </div>
         </div>
     </div>
     <!-- /header_top -->
@@ -63,13 +82,13 @@
                 <li class="dropdown">
                     <a href="#">貸款服務</a>
                     <ul class="dropdown-menu clearfix manucolor" >
-                        <li><a href="tufree%20fast.html">免TU快速批核</a></li>
-                        <li><a href="business%20cash.html">業務資金周轉</a></li>
-                        <li><a href="self%20employed.html">自僱人士貸款</a></li>
-                        <li><a href="#">卡數結餘轉戶</a></li>
+                        <li><a href="tufreefast.html">免TU快速批核</a></li>
+							<li><a href="businesscash.html">業務資金周轉</a></li>
+							<li><a href="selfemployed.html">自僱人士貸款</a></li>
+							<li><a href="easyfastloan.html">卡數結餘轉戶</a></li>
                     </ul>
                 </li>
-                <li><a href="#">聯絡我們</a></li>
+                <li><a href="contactus.html">聯絡我們</a></li>
             </ul>
         </nav>
         <!-- /nav Menu -->
@@ -96,13 +115,13 @@
                                 貸款服務
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="tufree%20fast.html">免TU快速批核</a></li>
-                                <li><a href="business%20cash.html">業務資金周轉</a></li>
-                                <li><a href="self%20employed.html">自僱人士貸款</a></li>
-                                <li><a href="#">卡數結餘轉戶</a></li>
+                                <li><a href="tufreefast.html">免TU快速批核</a></li>
+									<li><a href="businesscash.html">業務資金周轉</a></li>
+									<li><a href="selfemployed.html">自僱人士貸款</a></li>
+									<li><a href="easyfastloan.html">卡數結餘轉戶</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">聯絡我們</a></li>
+                        <li><a href="contactus.html">聯絡我們</a></li>
                     </ul>
                 </nav>
             </div>
@@ -140,7 +159,7 @@
                     <div class="row">
                         <div class="col-md-6 my-auto text-right pr-4">
                                 <div id="collapse01" class="collapse show" aria-labelledby="heading01" data-parent="#accordionExample">
-                                        <h2 style="font-size: 45px;line-height: 75px;">
+                                        <h2 class="header-title">
                                             創業・拓展・轉型<br>
                                             營運資金想借就借！
 
@@ -195,7 +214,7 @@
                     </div>
                 </div>
                 <div class="sub-button  text-uppercase">
-                    <button type="submit" value="Submit">立即申請</button>
+                    <a href="contactus.html"><button type="submit" value="Submit">立即申請</button></a>
                 </div>
             </form>
         </div>
@@ -210,17 +229,6 @@
     <div class="container">
         <div class="footer_copyright_content">
             <div class="row">
-                <div class="col-lg-4 col-md-12">
-                    <div class="footer_social ul-li clearfix">
-                        <ul>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="footer_logo text-center">
                         <a href="index.html"><img src="assets/img/logo/flogo-1.png" alt=""></a>
