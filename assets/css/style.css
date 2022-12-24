@@ -5557,7 +5557,7 @@ select:visited {
 }
 .breadcrumb_section .breadcrumb_title {
   color: #fff;
-  line-height: 0.833;
+  line-height: 1.12;
   font-size: 50px;
   text-align: center;
 }
@@ -7074,7 +7074,7 @@ select:visited {
   }
 
   .breadcrumb_section .breadcrumb_title {
-    font-size: 100px;
+    font-size: 70px;
   }
 
   .breadcrumb_section .breadcrumb_watermark {
@@ -7434,7 +7434,8 @@ select:visited {
   }
 
   .breadcrumb_section .breadcrumb_title {
-    font-size: 60px;
+    font-size: 28px;
+    line-height: 38px;
   }
 
   .breadcrumb_section .slider_side_btn a {
@@ -7832,7 +7833,7 @@ select:visited {
   }
 
   .breadcrumb_section .breadcrumb_title {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 38px;
   }
 
@@ -8145,8 +8146,8 @@ select:visited {
   }
 
   .breadcrumb_section .breadcrumb_title {
-    font-size: 30px;
-    line-height: 45px;
+    font-size: 24px;
+    line-height: 38px;
   }
 }
 @media screen and (max-width: 320px) {
