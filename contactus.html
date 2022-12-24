@@ -146,11 +146,11 @@
                                     我們會盡快聯絡你！</h3>
                             </div>
                             <div class="estimate_form">
-                                <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                                <form id="contact_form" action="email.php" method="POST" enctype="multipart/form-data">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="contact-info">
-                                                <input class="email" name="name" type="text" placeholder="稱呼">
+                                                <input class="email" name="Name" type="text" placeholder="稱呼">
                                                 <div class="icon-bg">
                                                     <i class="far fa-user"></i>
                                                 </div>
@@ -168,7 +168,7 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="contact-info">
-                                                <input class="email" name="case" type="text" placeholder="電話">
+                                                <input class="email" name="Phone" type="text" placeholder="電話">
                                                 <div class="icon-bg">
                                                     <i class="fas fa-phone"></i>
                                                 </div>
@@ -176,7 +176,7 @@
                                         </div>
                                         <div class="col-md-6">
                                             <div class="contact-info">
-                                                <input class="email" name="case" type="text" placeholder="職位">
+                                                <input class="email" name="Date" type="date" placeholder="職位">
                                                 <div class="icon-bg">
                                                     <i class="fas fa-calendar-alt"></i>
                                                 </div>
@@ -184,7 +184,7 @@
                                         </div>
                                         <div class="col-md-12">
                                             <div class="contact-info">
-                                                <input class="email" name="case" type="text" placeholder="欲查詢貸款">
+                                                <input class="email" name="Subject" type="text" placeholder="欲查詢貸款">
                                                 <div class="icon-bg">
                                                     <i class="fas fa-arrow-down"></i>
                                                 </div>
@@ -192,7 +192,7 @@
                                         </div>
                                         <div class="col-md-12">
                                             <div class="contact-info">
-                                                <textarea id="message" name="message" placeholder="查詢內容"></textarea>
+                                                <textarea id="message" name="Message" placeholder="查詢內容"></textarea>
                                                 <div class="icon-bg">
                                                     <i class="far fa-edit"></i>
                                                 </div>
@@ -200,7 +200,7 @@
                                         </div>
                                     </div>
                                     <div class="sub-button  text-uppercase">
-                                        <button type="submit" value="Submit">提交</button>
+                                        <button type="submit" value="Submit" name="contact">提交</button>
                                     </div>
                                 </form>
                             </div>
